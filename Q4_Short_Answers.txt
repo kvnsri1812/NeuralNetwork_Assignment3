@@ -1,0 +1,5 @@
+1. Why do we divide the attention score by √d in the scaled dot-product attention formula?
+Dividing by the square root of the key dimension (√d) prevents the dot product values from becoming too large when the dimensionality is high. Without this scaling, large values could cause the softmax function to produce extremely small gradients, making learning unstable or slow. Scaling keeps the scores in a manageable range and improves training efficiency.
+
+2. How does self-attention help the model understand relationships between words in a sentence?
+Self-attention allows each word in a sentence to consider other words when forming its representation. This means the model learns how important each word is relative to others in the same sentence. It helps capture dependencies and context across different positions, making it effective in understanding long-range word relationships (e.g., resolving pronouns or tracking subject-object relationships).

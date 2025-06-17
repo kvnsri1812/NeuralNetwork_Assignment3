@@ -1,0 +1,13 @@
+5.	Explain the role of temperature scaling in text generation and its effect on randomness.
+
+In text generation, temperature scaling is a technique used to control the randomness of character predictions when sampling from the output distribution of a language model. After the LSTM model predicts the logits for the next character, these logits are divided by a scalar value called temperature before applying the softmax function.
+
+In this assignment, temperature scaling was used during character-level generation with an LSTM trained on Shakespeare’s dataset.
+
+Temperature affects the randomness in character sampling from the model's softmax output.
+
+Lower temperature values (e.g., 0.5) sharpen the probability distribution, leading to more predictable and repetitive text.
+
+Higher temperature values (e.g., 1.5) flatten the distribution, resulting in more diverse, surprising, or even grammatically incorrect sequences.
+
+This mechanism allows us to balance between coherence and creativity in generated Shakespeare-style text.

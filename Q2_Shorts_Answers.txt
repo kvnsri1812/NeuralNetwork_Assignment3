@@ -1,0 +1,23 @@
+1. What is the difference between stemming and lemmatization? (Example: “running”)
+
+Stemming is a basic text normalization technique that removes word suffixes to reduce a word to its root form. It applies simple rules without understanding the word’s context or grammar. The result is sometimes not a real word.
+
+Example: "running" → "run" or "runn" (by PorterStemmer)
+
+Lemmatization, on the other hand, uses a dictionary and considers the word’s part of speech to return a proper base word (called a lemma). It is more accurate than stemming but slower.
+
+Example: "running" → "run" (as a verb), "better" → "good"
+
+Stemming is faster and useful when speed matters but may give inaccurate forms.
+
+Lemmatization is ideal when linguistic correctness is important, such as in search engines or chatbots.
+
+2. Why might removing stop words be useful in some NLP tasks, and when might it be harmful?
+
+Stop words are very common words (like “is,” “in,” “the,” “are”) that often don’t add much meaning on their own.
+
+Useful: Removing them helps reduce dataset size and noise in tasks like text classification, keyword extraction, and document clustering. It helps the model focus on meaningful content words like nouns and verbs.
+
+Harmful: In some tasks, stopwords play a crucial role. For example, in sentiment analysis, words like “not” can flip the sentiment (“not happy” ≠ “happy”). In machine translation or question answering, removing stopwords can break grammar and lose important context.
+
+Removing stopwords improves efficiency in many cases but should be avoided when they carry meaningful information related to the task’s goal.

@@ -1,0 +1,24 @@
+1. How does NER differ from POS tagging in NLP?
+
+NER (Named Entity Recognition) identifies specific named entities in a sentence—such as people, locations, dates, and organizations—and classifies them with predefined labels like PERSON, DATE, or GPE.
+
+POS (Part-of-Speech) tagging, in contrast, labels each word based on its grammatical role, such as noun, verb, adjective, or preposition.
+
+Example:
+In the sentence "Barack Obama was the president."
+
+POS Tagging: "Barack" → Proper Noun (NNP), "was" → Verb (VBD)
+
+NER: "Barack Obama" → PERSON
+
+Summary: POS tagging is about grammar, while NER is about real-world named entities.
+
+2. Two Real-World Applications of NER
+
+a) Financial News Analysis
+NER helps extract company names, stock tickers, and financial figures from market news to support investment decisions and automate reports.
+
+b) Search Engines and Assistants
+Search systems use NER to understand user queries better by identifying names of people, cities, or brands—e.g., recognizing "Nobel Peace Prize 2009" as a key topic.
+
+Summary: NER improves data organization, question answering, and decision-making by linking text to real-world entities.

@@ -1,0 +1,27 @@
+1. What is the main architectural difference between BERT and GPT? Which uses an encoder and which uses a decoder?
+
+The main architectural difference is that BERT uses only the encoder part of the Transformer, while GPT uses only the decoder part.
+
+BERT (Bidirectional Encoder Representations from Transformers): Uses an encoder that processes input in both directions (left and right), which helps in understanding full sentence context.
+
+GPT (Generative Pretrained Transformer): Uses a unidirectional decoder for generating text in a left-to-right fashion.
+
+In summary:
+
+BERT = Encoder-only → for understanding tasks
+
+GPT = Decoder-only → for generation tasks
+
+2. Why are pre-trained models like BERT or GPT useful for NLP tasks instead of training from scratch?
+
+Pre-trained models have already learned language patterns from large text datasets (e.g., books, Wikipedia), so they provide a strong starting point for specific NLP tasks.
+
+Benefits:
+
+Save training time and computational resources
+
+Require less labeled data
+
+Achieve better performance with fine-tuning
+
+Training from scratch would be costly and slow, and often not practical for small or medium projects. Using pre-trained models allows developers to get high accuracy with minimal effort.

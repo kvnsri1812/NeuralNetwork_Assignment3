@@ -1,13 +1,11 @@
 # **CS5720 Home Assignment 3 – RNN, NLP, Attention & Transformers**
 
-### **Course Information**
+ **Course Title**: CS5720 – Neural Networks and Deep Learning
+ **University**: University of Central Missouri
+ **Term**: Summer 2025
 
-* **Course Title**: CS5720 – Neural Networks and Deep Learning
-* **University**: University of Central Missouri
-* **Term**: Summer 2025
-
-* **Student Name**: Komatlapalli Venkata Naga Sri
-* **Student ID**: 700773763
+**Student Name**: Komatlapalli Venkata Naga Sri
+**Student ID**: 700773763
 
 ---
 

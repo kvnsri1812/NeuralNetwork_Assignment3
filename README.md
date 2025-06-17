@@ -35,7 +35,7 @@ To train an LSTM model on character-level text and explore how temperature scali
 
 ### **What Was Done:**
 
-* Loaded *The Little Prince* text dataset.
+* Loaded *Shakespeare* dataset.
 * Converted text into integer sequences using a character index mapping.
 * Built an LSTM model using TensorFlow with:
 
